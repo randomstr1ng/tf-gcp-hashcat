@@ -1,0 +1,15 @@
+// GCP project ID
+project_name = "little-monster-292215"
+
+// GCP Region & Zone
+region = "europe-west1-b"
+
+// Linux Username
+username = "hashcat"
+
+// OS Disk size (in GB)
+disk_size = "30"
+
+// Type and count of GPU
+gpu_type = "nvidia-tesla-p100"
+gpu_count = "1"
