@@ -18,7 +18,7 @@ To get startetd you have to configure the variables and put them into the File `
 (you can copy the file variables.example-tfvars):
 ```terraform
 // GCP project ID
-project_name = "little-monster-292215"
+project_name = "demo-project-12345"
 
 // GCP Region & Zone
 region = "europe-west1-b"
