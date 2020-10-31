@@ -29,7 +29,7 @@ sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda
 sudo add-apt-repository "deb http://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /"
 sudo apt-get install -yq cuda
 sudo wget https://hashcat.net/files/hashcat-6.1.1.7z -O /opt/hashcat.7z
-sudo 7z x /opt/hashcat.7z
+sudo 7z -d /opt/hashcat.7z /opt/hashcat
 sudo git clone --depth 1 https://github.com/danielmiessler/SecLists.git /opt/SecLists
 sudo touch /opt/finish_installation
 SCRIPT
